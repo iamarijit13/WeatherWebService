@@ -1,8 +1,3 @@
-
-console.log("Clientside javaScript files.");
-
-
-
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
 const messageOne = document.querySelector('#message1');
