@@ -9,7 +9,8 @@
 //  console.log(path.join(__dirname,'../public'));
 
  const app = express();
- 
+ const port = express.env.PORT || 3000
+
 
  //Define paths for express configaration.
  const publicDirectoryPath = path.join(__dirname,'../public');
@@ -138,8 +139,8 @@
  })
 
 
- app.listen(3000, ()=>{
-     console.log("Server is up on port: 3000.")
+ app.listen(port, ()=>{
+     console.log('Server is up on port: '+port+'.')
  })
 
  //lsof -i tcp:3000
