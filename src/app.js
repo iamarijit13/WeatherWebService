@@ -5,11 +5,11 @@
  geocode = require('./utils/geocode.js');
  weather = require('./utils/weatherInfo.js');
 
-//  console.log(__dirname);
 //  console.log(__filename);
 //  console.log(path.join(__dirname,'../public'));
 
  const app = express();
+ 
 
  //Define paths for express configaration.
  const publicDirectoryPath = path.join(__dirname,'../public');
