@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    // "build": "nodemon src/app.js -e js,hbs"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +14,5 @@
     "hbs": "^4.1.1",
     "kill-port": "^1.6.1",
     "request": "^2.88.2"
-  },
-  // "devDependencies": {
-  //   "nodemon": "^2.0.7"
-  // }
+  }
 }
