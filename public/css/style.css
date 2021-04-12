@@ -44,7 +44,7 @@ footer{
     font-size: 18px;
     padding: 12px;
     background: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #searchBox button{

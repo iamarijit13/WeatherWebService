@@ -55,6 +55,8 @@ weatherForm.addEventListener('submit', (e)=>{
             messageEleven.textContent = 'Humidity : ' + data.humidity + ' %';
             messageTwelve.textContent = 'Visibility : ' + data.visibility;
             messageThirteen.textContent = 'Wind Pressure : ' + data.pressure;
+
+            search.value = '';
         }
     })
 })
