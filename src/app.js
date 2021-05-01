@@ -1,7 +1,6 @@
  const path = require('path');
  const express = require('express');
  const hbs = require('hbs');
- const kill = require('kill-port');
  geocode = require('./utils/geocode.js');
  weather = require('./utils/weatherInfo.js');
 

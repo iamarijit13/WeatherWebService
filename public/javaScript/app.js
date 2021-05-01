@@ -57,9 +57,9 @@ weatherForm.addEventListener('submit', (e)=>{
             messageThirteen.textContent = 'Wind Pressure : ' + data.pressure;
 
             search.value = '';
-        }
+            }
+        })
     })
-})
 
 })
 
